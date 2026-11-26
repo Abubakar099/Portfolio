@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141522"/>
+      <stop offset="1" stop-color="#08090d"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="12" y1="8" x2="54" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd54f"/>
+      <stop offset="0.55" stop-color="#ff9800"/>
+      <stop offset="1" stop-color="#f4511e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <!-- Spiky Goku-style silhouette -->
+  <path
+    d="M32 7L36.5 19.5L49 11L44.5 24.5L57 22L47 33L55 39.5L43.5 40.5C42.5 47.5 37.8 53 32 54.5C26.2 53 21.5 47.5 20.5 40.5L9 39.5L17 33L7 22L19.5 24.5L15 11L27.5 19.5L32 7Z"
+    fill="url(#hair)"
+  />
+  <!-- Face silhouette -->
+  <path
+    d="M22.5 34.5C24.5 31.5 27.5 30 32 30C36.5 30 39.5 31.5 41.5 34.5L40 43.5C38.5 48.2 35.5 51 32 52C28.5 51 25.5 48.2 24 43.5L22.5 34.5Z"
+    fill="#10111a"
+  />
+  <!-- Sharp anime eyes -->
+  <path d="M25.5 37.5L30.2 39.2L26.2 40.2Z" fill="#38bdf8"/>
+  <path d="M38.5 37.5L33.8 39.2L37.8 40.2Z" fill="#38bdf8"/>
+</svg>
